@@ -3,7 +3,7 @@ The program is made to flatten JSON objects
 (Read the [Problem Description](https://gist.github.com/doug-ol/0c018e82c095cd3addcb1275999c966f))
 
 ### How to run the program
-Run code with command: `$ cat test.json | dotnet run`
+Run code with command: `$ cat test.json | dotnet run` or `$ dotnet run`
 
 OR
 
@@ -14,6 +14,12 @@ OR
 3.Run the program (program.cs)
 
 The command line will print out the flattened version of the JSON object
+
+### Run tests
+Run tests with command: `$ dotnet test`
+
+OR
+Run from the IDE
 
 ## Setup Notes
 -The project is targeting .NET 6.0
