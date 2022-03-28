@@ -25,7 +25,7 @@ namespace JSON_flattener
             {
                 jobject = JObject.Parse(json_message); //parse to JObject the JSON string
             }
-            catch (Exception ex)
+            catch 
             {
                 throw new Exception("Couldn't parse object, format of JSON is wrong");
             }
