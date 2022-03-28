@@ -4,4 +4,5 @@ The program is made to flatten JSON objects
 
 ## Usage
 -Run code with command: `$ cat test.json | dotnet`
+
 -JSON string is situated inside test.json 
